@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SpiceJetAutomationSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="SpiceJetTest(failed)">
+    <classes>
+      <class name="testCases.FlightBookingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchFlight"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.FlightBookingTest -->
+      <class name="testCases.SignUpTest">
+        <methods>
+          <include name="signUpTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.SignUpTest -->
+    </classes>
+  </test> <!-- SpiceJetTest(failed) -->
+</suite> <!-- Failed suite [SpiceJetAutomationSuite] -->

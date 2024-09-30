@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SpiceJetAutomationSuite">
+    <parameter name="browser" value="chrome"/>
+    <test name="SpiceJetTest">
+        <classes>
+            <class name="testCases.SignUpTest"/>
+            <class name="testCases.LoginTest"/>
+            <class name="testCases.FlightBookingTest"/>
+        </classes>
+    </test>
+</suite>
